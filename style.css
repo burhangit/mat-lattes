@@ -1,0 +1,253 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+p {
+	font-size: 17px;
+}
+nav {
+	background-color: #2B2B2B;
+	color: black;
+}
+nav ul a {
+	margin-left: 5px;
+}
+nav .brand-logo {
+	margin-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+	nav .brand-logo {
+		margin-left: -20px;
+	}
+}
+.banner {
+	background-color: #2B2B2B;
+	height: 500px;
+	margin-top: -100px;
+}
+.banner img {
+	margin-top: 100px;
+	width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	.banner img {
+		/*width: 350px;*/
+		height: auto;
+	}
+}
+.about {
+	margin-top: 50px;
+}
+.material-icons {
+	font-size: 30px;
+	margin-top: 100px;
+}
+.about-bot h4 {
+	font-size: 22px;
+}
+.about-bot p {
+	padding-bottom: 50px
+}
+section {
+	clear: both;
+}
+@media only screen and (max-width: 600px) {
+	.skill {
+		overflow: hidden;
+	}
+}
+.scro {
+	color: white;
+	background-color: #2B2B2B;
+	margin-top: 100px;
+}
+.scro p {
+	padding-bottom: 50px;
+}
+.scro h5 {
+	padding-top: 50px;
+}
+.port-hp h3 {
+	padding-top: 100px;
+}
+.port-hp p {
+	padding-bottom: 100px;
+}
+.partners h3 {
+	padding-top: 100px;
+}
+.parteners p {
+	padding-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+	.b1 img {
+		margin-left: 17px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.b2 img {
+		margin-left: 17px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.b3 img {
+		margin-left: 17px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.b4 img {
+		margin-left: 17px;
+	}
+}
+#performance {
+	clear: both;
+	margin-top: 50px;
+}
+.desc h3 {
+	color: black;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.desc p {
+	padding-bottom: 100px;
+	color: black;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+.skills h2 {
+	color: black;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+.skills h3 {
+	font-size: 14px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 50px;
+}
+.box {
+	background: black;
+}
+.box h5 {
+	padding: 5px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.box h5 {
+	margin-top: 30px;
+}
+.box p {
+	padding: 5px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+.portfolio h3 {
+	margin: 30px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.slider {
+	text-align: center;
+}
+.slider h3 {
+	position: relative;
+	top: 30px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-item img {
+	width: 700px;
+	height: 200px;
+	padding-bottom: 50px;
+}
+.our-team {
+	background: black;
+}
+.our-team-title {
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.o {
+	color: red;
+}
+.img-box img {
+	width: 100%;
+	height: 200px;
+}
+.img-box h4 {
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+}
+.img-box h5 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.img-box h6 {
+	color: white;
+	margin-bottom: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.touch-mid h3 {
+	border-bottom: 1px solid black;
+	display: inline-block;
+	margin-top: 100px;
+}
+.touch-left .material-icons {
+	font-size: 40px;
+}
+.form-area {
+	margin-top: 100px;
+}
+.form-area .input-field input[type=text]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+	color: black;
+}
+.form-area .input-field input[type=password]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+	color: black;
+}
+.form-area .input-field input[type=email]:focus {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
+	color: black;
+}
+.form-area button[type=submit] {
+	background-color: black;
+}
+.page-footer {
+	background-color: black;
+	width: 100%;
+	position: absolute;
+}
+
+
